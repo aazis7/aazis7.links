@@ -27,6 +27,8 @@ export function LinkCard({ links }: { links: Promise<LinkCardProps> }) {
                     >
                         <Image
                             className="size-8 sm:size-10"
+                            width={24}
+                            height={24}
                             src={icon.src}
                             alt={title}
                             priority
